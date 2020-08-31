@@ -10,6 +10,7 @@ export class AppService {
   }
 
   getTest() {
-    return (this._http.get('http://api.jsoneditoronline.org/v1/docs/b6c9eb52c64746829ec652d655b10c8c/data'));
+    const url ="";
+    return (this._http.get(url));
   }
 }
